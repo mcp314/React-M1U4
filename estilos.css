@@ -1,0 +1,24 @@
+body{
+    width: 1080px;
+}
+img{
+    width: 1080px;
+}
+h1{
+    font-family: Lucida Sans; color:Blue; text-align: center;
+}
+h2{
+    font-family:Verdana; color:Red; text-align: left ; 
+}
+h3{
+    margin-left: 50pt;
+}
+table{
+    width: 780px;;background-color: darkcyan;text-align: left;padding-left: 50px;padding-right: 50px;margin-left: 150px; margin-right: 150px;
+}
+p{
+    font-family: verdana; color: black; text-align: justify ;background-color: orangered; border-width: 2pt; border-style: dashed;margin-left: 20px;margin-right: 20px;
+}
+#pie{
+    font-weight:bold;
+}
