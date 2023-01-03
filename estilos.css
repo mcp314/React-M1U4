@@ -2,10 +2,12 @@ body{
     width: 1080px;
 }
 img{
-    width: 1080px;
+    width: 1080px;box-shadow: 12px 12px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 12px 12px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 12px 12px 5px 0px rgba(0,0,0,0.75);
 }
 h1{
-    font-family: Lucida Sans; color:Blue; text-align: center;
+    font-family: Lucida Sans; color:Blue; text-align: center;text-shadow: 3px 3px 3px rgba(0,0,0,0.80);
 }
 h2{
     font-family:Verdana; color:Red; text-align: left ; 
@@ -14,10 +16,19 @@ h3{
     margin-left: 50pt;
 }
 table{
-    width: 780px;;background-color: darkcyan;text-align: left;padding-left: 50px;padding-right: 50px;margin-left: 150px; margin-right: 150px;
+    width: 780px;/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d2dfed+0,c8d7eb+26,bed0ea+51,a6c0e3+59,afc7e8+67,99b5db+87,799bc8+99 */
+background: rgb(210,223,237); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(210,223,237,1) 0%, rgba(200,215,235,1) 26%, rgba(190,208,234,1) 51%, rgba(166,192,227,1) 59%, rgba(175,199,232,1) 67%, rgba(153,181,219,1) 87%, rgba(121,155,200,1) 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(210,223,237,1) 0%,rgba(200,215,235,1) 26%,rgba(190,208,234,1) 51%,rgba(166,192,227,1) 59%,rgba(175,199,232,1) 67%,rgba(153,181,219,1) 87%,rgba(121,155,200,1) 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(210,223,237,1) 0%,rgba(200,215,235,1) 26%,rgba(190,208,234,1) 51%,rgba(166,192,227,1) 59%,rgba(175,199,232,1) 67%,rgba(153,181,219,1) 87%,rgba(121,155,200,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2dfed', endColorstr='#799bc8',GradientType=0 ); /* IE6-9 */
+;text-align: left;padding-left: 50px;padding-right: 50px;margin-left: 150px; margin-right: 150px;border-radius: 29px 29px 29px 29px;
+-webkit-border-radius: 29px 29px 29px 29px;
+-moz-border-radius: 29px 29px 29px 29px;
+border: 2px double #ff6550;
 }
 p{
-    font-family: verdana; color: black; text-align: justify ;background-color: orangered; border-width: 2pt; border-style: dashed;margin-left: 20px;margin-right: 20px;
+    font-family: 'Roboto', sans-serif; color: black; text-align: justify ;background-color: orangered; border-width: 2pt; border-style: dashed;margin-left: 20px;margin-right: 20px;
 }
 #pie{
     font-weight:bold;
